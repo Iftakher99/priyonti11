@@ -503,6 +503,9 @@ h6 {
 .owl-theme .owl-dots .owl-dot {
   display: none !important;
 }
+.owl-carousel .owl-stage-outer {
+  height: 300px !important;
+}
 @media (max-width: 600px) {
   .service-main__text {
     padding-top: 0;
