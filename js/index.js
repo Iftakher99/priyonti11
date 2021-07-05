@@ -42,3 +42,6 @@ for (let i = 0; i < marqueeElementsDisplayed; i++) {
   marqueeContent3.appendChild(marqueeContent3.children[i].cloneNode(true));
 }
 // new video slider
+// carasol
+
+// carasol end
