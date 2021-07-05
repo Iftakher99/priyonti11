@@ -500,6 +500,9 @@ h6 {
   color: #068bb6;
   font-weight: 700;
 }
+.owl-theme .owl-dots .owl-dot {
+  display: none !important;
+}
 @media (max-width: 600px) {
   .service-main__text {
     padding-top: 0;

@@ -21,6 +21,7 @@ for (let i = 0; i < marqueeElementsDisplayed; i++) {
 }
 // new video slider
 // carasol
+
 $(document).ready(function () {
   $('.owl-carousel').owlCarousel();
 });
