@@ -209,10 +209,9 @@ h6 {
 #career {
   background-color: #dff5fda1;
   padding: 0;
-}
-.career__main {
   margin-top: -16rem;
 }
+
 .career__main-left {
   background: url('../images/career/Background.png') center center;
   height: 37.5rem;
