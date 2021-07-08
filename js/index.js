@@ -4,7 +4,7 @@ $(document).ready(function () {
     if (scroll > 300) {
       $('#nav-bar').css('background', 'rgb(0 52 98 / 1)');
     } else {
-      $('#nav-bar').css('background', 'transparent');
+      $('#nav-bar').css('background', 'transparent!important');
     }
   });
 });
@@ -51,4 +51,3 @@ $('.play').on('click', function () {
 $('.stop').on('click', function () {
   owl.trigger('stop.owl.autoplay');
 });
-// carasol end
