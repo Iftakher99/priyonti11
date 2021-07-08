@@ -1,3 +1,14 @@
+$(document).ready(function () {
+  $(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+    if (scroll > 300) {
+      $('#nav-bar').css('background', 'rgb(0 52 98 / 1)');
+    } else {
+      $('#nav-bar').css('background', 'transparent');
+    }
+  });
+});
+
 const root = document.documentElement;
 const marqueeElementsDisplayed = getComputedStyle(root).getPropertyValue(
   '--marquee-elements-displayed',

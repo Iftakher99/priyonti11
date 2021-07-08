@@ -373,8 +373,7 @@ h6 {
 .form__footer-button button {
   margin-bottom: 0;
 }
-.header-main-our-works {
-}
+
 .video-background {
   background: #000;
   position: fixed;
@@ -521,4 +520,8 @@ h6 {
   .marquee:after {
     width: 5rem;
   }
+}
+nav.scroll {
+  background-color: #a1572f;
+  color: #eef;
 }
