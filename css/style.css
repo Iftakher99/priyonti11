@@ -617,7 +617,7 @@ h6 {
 }
 @media (max-width: 600px) {
   .marquee-img-div img {
-    padding: 5px 10px;
+    padding: 5px 10px !important;
     background-color: #fff;
     height: 40px;
     object-fit: contain;
