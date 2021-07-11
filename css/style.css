@@ -616,6 +616,12 @@ h6 {
   height: 300px !important;
 }
 @media (max-width: 600px) {
+  .marquee-img-div img {
+    padding: 5px 10px;
+    background-color: #fff;
+    height: 40px;
+    object-fit: contain;
+  }
   .service-main__text {
     padding-top: 0;
   }
@@ -640,4 +646,6 @@ h6 {
 .marquee-img-div img {
   padding: 10px 40px;
   background-color: #fff;
+  height: 130px;
+  object-fit: contain;
 }
